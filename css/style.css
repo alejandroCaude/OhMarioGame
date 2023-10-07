@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.vidas{
+    margin-top: -550px;
+    margin-left: -150px;
+    width: 80px;
+    height: 460px;
+    border: 1px solid black;
+    background-image: url(../img/camino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2em;
+}
+
+.puntos{
+    margin-top: -550px;
+    margin-left: 1050px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../img/camino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2em;
+}
+
+.numvidas{
+    width: 80px;
+    height: 80px;
+    display:flex;
+    background-image: url(../img/recto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terminado{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+    background-image: url(../img/perdido.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: 103;
+    font-size: 3em;
+    color: white;
+}
+
+.ganado{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+    background-image: url(../img/victoria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: 103;
+    font-size: 3em;
+    color: white;
+}
+.bloque {
+    background-image: url(https://previews.123rf.com/images/babysofja/babysofja1707/babysofja170700037/82728386-tierra-del-patr%C3%B3n-agrietado-tierra-del-desierto-textura-sin-fisuras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.camino {
+    background-image: url(https://img.freepik.com/free-vector/seamless-textured-grass-natural-grass-pattern_172107-1308.jpg?size=338&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.monedas {
+    background-image: url(../img/monedas.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.derecha {
+    background-image: url(../img/derecha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.izquierda {
+    background-image: url(../img/izquierda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.recto {
+    background-image: url(../img/recto.jpg);
+    background-repeat: no-repeat;
+}
+
+.Maloderecha {
+    background-image: url(../img/maloDerecha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Maloizquierda {
+    background-image: url(../img/maloIzquierda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.Malorecto {
+    background-image: url(../img/Malorecto.jpg);
+    background-repeat: no-repeat;
+   
+}
+
+
+#tablero {
+    width: 1050px;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(21, 50px);
+    grid-template-rows: repeat(13, 50px);
+    margin-left: 200px;
+    margin-top: 60px
+}
+
+html {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*fonde del boton*/
+#cartel{
+    z-index: 101;
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    position: fixed;
+    left: calc(50% - 200px);
+    top: 100px;
+}
+/*fondo degradado*/
+#tapar{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity: .7;
+    z-index: 100;
+}
+
+/*boton de empezemos*/
+#emp{
+    z-index: 102;
+    position: fixed;
+    top: 150px;
+    width: 150px;
+    height: 100px;
+    margin: 50px;
+    left: calc(50% - 125px);
+}
